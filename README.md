@@ -5,6 +5,7 @@ Some gitlab cheatsheets
 # GitLab Runner
 Docs: https://docs.gitlab.com/runner/commands/
 
+```
 COMMANDS:
    exec                  execute a build locally
    list                  List all configured runners
@@ -28,4 +29,6 @@ COMMANDS:
    health-check          check health for a specific address
    read-logs             reads job logs from a file, used by kubernetes executor (internal)
    help, h               Shows a list of commands or help for one command
+```
+
 
