@@ -54,7 +54,7 @@ SSH
 Shell
 Parallels
 VirtualBox
-Docker
+Docker (https://docs.gitlab.com/runner/install/docker.html)
 Docker Autoscaler (experiment)
 Docker Machine (auto-scaling)
 Kubernetes
