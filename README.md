@@ -1,6 +1,8 @@
 # gitlab
 Some gitlab cheatsheets
 
+# Examples
+https://docs.gitlab.com/ee/ci/examples/
 
 # GitLab Runner
 Docs: https://docs.gitlab.com/runner/commands/
