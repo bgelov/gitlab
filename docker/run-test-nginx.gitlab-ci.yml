@@ -1,0 +1,18 @@
+# Shell runner. Run nginx in Docker on 8888 port
+
+stages:
+  - test
+
+variables:
+  TEST_CONTAINER_NAME: docker-nginx
+
+test-docker-job:
+  stage: test
+  before_script:
+    - docker stop $TEST_CONTAINER_NAME
+    - ID=$(docker container ls -a | grep $TEST_CONTAINER_NAME | awk '{print $1}')
+    - docker rm $ID
+  script:
+    - docker run --name $TEST_CONTAINER_NAME -p 8888:80 nginx
+  tags:
+    - dev-shell
