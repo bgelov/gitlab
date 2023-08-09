@@ -4,6 +4,9 @@ Some gitlab cheatsheets
 # Examples
 https://docs.gitlab.com/ee/ci/examples/
 
+# GitLab Variables
+Predefined Variables Docs: https://docs.gitlab.com/ee/ci/variables/predefined_variables.html
+
 # GitLab Runner
 Docs: https://docs.gitlab.com/runner/commands/
 
