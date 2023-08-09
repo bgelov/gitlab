@@ -55,6 +55,10 @@ Shell
 Parallels
 VirtualBox
 Docker (https://docs.gitlab.com/runner/install/docker.html)
+- error during connect: Get "http://docker..." dial tcp: lookup docker on ... no such host 
+Add to .toml docker.sock: volumes = ["/var/run/docker.sock:/var/run/docker.sock", "/cache"]
+
+
 Docker Autoscaler (experiment)
 Docker Machine (auto-scaling)
 Kubernetes
