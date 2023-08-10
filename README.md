@@ -59,14 +59,20 @@ SSH
 Shell
 Parallels
 VirtualBox
+
 Docker (https://docs.gitlab.com/runner/install/docker.html)
+- Use kaniko: https://docs.gitlab.com/ee/ci/docker/using_kaniko.html
 - error during connect: Get "http://docker..." dial tcp: lookup docker on ... no such host 
 Add to .toml docker.sock: volumes = ["/var/run/docker.sock:/var/run/docker.sock", "/cache"]
 
-
 Docker Autoscaler (experiment)
+
 Docker Machine (auto-scaling)
+- Use kaniko: https://docs.gitlab.com/ee/ci/docker/using_kaniko.html
+
 Kubernetes
+- Use kaniko: https://docs.gitlab.com/ee/ci/docker/using_kaniko.html
+
 Instance (experiment)
 Custom
 ```
